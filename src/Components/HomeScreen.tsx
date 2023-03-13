@@ -1,9 +1,14 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
+import Hero from "./LandingPage/Hero";
 
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
-  )
-}
+    <div>
+      <Hero />
+    </div>
+  );
+};
 
-export default HomeScreen
+export default HomeScreen;
